@@ -1,11 +1,11 @@
 server:
-  port: 8081
+  port: 8083
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://docker2/spring-cloud-test?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+    url: jdbc:mysql://docker2:3306/inventory-service?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
     username: root
-    password: 123456
+    password: 1111
 
 mybatis:
   configuration:
